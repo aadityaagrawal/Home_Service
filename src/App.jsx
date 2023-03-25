@@ -3,6 +3,9 @@ import NavBar from "./Components/NavBar";
 import "./App.css";
 import Services from "./Components/Services";
 import women from "./assets/women.png";
+import Footer from "./Components/Footer";
+import Introduction from "./Components/Introduction";
+
 function App() {
   return (
     <>
@@ -33,7 +36,11 @@ function App() {
           laudantium?
         </div>
       </div>
+
+      <Introduction />
+
       <Services />
+      <Footer/>
     </>
   );
 }

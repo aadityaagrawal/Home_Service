@@ -24,3 +24,11 @@
     letter-spacing: 0.3px;
     font-weight: 700;
 }
+
+.services-box{
+
+    margin-top: 80px;
+    display: flex;
+    margin-right: 7.5rem;
+    justify-content: space-between;
+}

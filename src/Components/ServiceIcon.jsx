@@ -1,24 +1,20 @@
-import React from 'react'
-import Home from "../assets/Home.png"
-import "./ServiceIcon.css"
+import React from "react";
+import Home from "../assets/Home.png";
+import "./ServiceIcon.css";
 
-function ServiceIcon() {
+function ServiceIcon({ imageURl, title, Caption }) {
   return (
-    <div className='icon'>
-{/* ------------Icon----------- */}
-<div className="iconImage">
-<img src={Home} alt="Home Icon" />
-</div>
-{/* ---------------Title-------------- */}
-<div className="iconTitle">
-    House Cleaning
-</div>
-{/* --------------Caption---------------------- */}
-<div className="iconCaption">
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim molestias ut voluptatibus et similique deserunt nostrum ipsa optio aut inventore?
-</div>
+    <div className="icon">
+      {/* ------------Icon----------- */}
+      <div className="iconImage">
+        <img src={imageURl} alt="Home Icon" />
+      </div>
+      {/* ---------------Title-------------- */}
+      <div className="iconTitle">{title}</div>
+      {/* --------------Caption---------------------- */}
+      <div className="iconCaption">{Caption}</div>
     </div>
-  )
+  );
 }
 
-export default ServiceIcon
+export default ServiceIcon;
