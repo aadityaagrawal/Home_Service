@@ -51,14 +51,7 @@
 }
 
 .women-image {
-  margin-left: 19rem;
-  margin-top: 2.7rem;
-}
-
-.container {
-  width: 18.875rem;
-  height: 9.25rem;
-  border-radius: 1.875rem;
-  z-index: 2;
-  background-color: white;
+  margin-right: 1.8rem;
+  object-fit: contain;
+  margin-top: 7.6rem;
 }

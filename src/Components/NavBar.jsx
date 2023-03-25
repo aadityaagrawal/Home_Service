@@ -1,34 +1,35 @@
 import React from "react";
 import "./NavBar.css";
+import {Link} from "react-router-dom"
 
 function NavBar() {
   return (
     <div>
       <div className="navigation">
       <div className="nav-bar">
-        <a href="/" className="app-logo">
+        <Link to="/" className="app-logo">
           Sukoon
-        </a>
-        <a href="https://www.google.com" className="nav-links">
+        </Link>
+        <Link to="/" className="nav-links">
           Home
-        </a>
-        <a href="https://www.google.com" className="nav-links">
+        </Link>
+        <Link to="/about" className="nav-links">
           About
-        </a>
-        <a href="https://www.google.com" className="nav-links">
+        </Link>
+        <Link to="/services" className="nav-links">
           Services
-        </a>
-        <a href="https://www.google.com" className="nav-links">
+        </Link>
+        <Link to="/contact" className="nav-links">
           Contact
-        </a>
+        </Link>
       </div>
       <div className="auth">
-        <a href="www.google.com" className="auth-button">
+        <Link to="www.google.com" className="auth-button">
           Login
-        </a>
-        <a href="www.google.com" className="auth-button">
+        </Link>
+        <Link to="www.google.com" className="auth-button">
           Sign Up
-        </a>
+        </Link>
       </div>
       </div>
     </div>

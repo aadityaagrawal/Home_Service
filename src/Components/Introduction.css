@@ -7,7 +7,7 @@
 }
 
 .right-introduction{
-    margin-left: 2.68rem;
+    margin-left: 4rem;
 }
 
 .mainHeading{
@@ -37,4 +37,8 @@
 
 .hehe{
     margin-left: 3.5rem;
+}
+
+.Group-Women{
+    object-fit: contain;
 }

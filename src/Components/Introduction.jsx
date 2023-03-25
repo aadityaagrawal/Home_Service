@@ -22,7 +22,7 @@ function Introduction() {
 
   return (
     <div className="Introduction">
-      <img src="src/assets/Women_Group.png" alt="group of womens" />
+      <img src="src/assets/Women_Group.png" className="Group-Women" alt="group of womens" />
       <div className="right-introduction">
         <h1 className="mainHeading">
           We are Very Experienced In Cleaning Service
